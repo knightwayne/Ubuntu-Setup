@@ -11,3 +11,5 @@ echo
 git --version
 echo
 cmake --version
+echo
+vlc --version
