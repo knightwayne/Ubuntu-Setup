@@ -1,0 +1,50 @@
+sudo apt-get autoremove
+sudo apt-get clean
+sudo apt-get autoclean
+
+
+sudo apt list --installed |wc -l
+dpkg --get-selections |wc -l
+
+
+sudo deborphan
+sudo deborphan | xargs sudo apt-get -y remove --purge
+
+example-content will be removed with configuration
+firefox will be removed with configuration
+gnome-software will be removed with configuration
+gsfonts will be removed with configuration
+ifupdown will be removed with configuration
+libnss-myhostname will be removed with configuration
+libpython2.7-minimal will be removed with configuration
+libpython3.6-minimal will be removed with configuration
+libqt5core5a will be removed with configuration
+libqt5gui5 will be removed with configuration
+libreoffice-avmedia-backend-gstreamer will be removed with configuration
+libsensors4 will be removed with configuration
+libssl1.0.0 will be removed with configuration
+libvdpau1 will be removed with configuration
+light-themes will be removed with configuration
+lintian will be removed with configuration
+linux-image-5.3.0-28-generic will be removed with configuration
+linux-image-5.3.0-46-generic will be removed with configuration
+linux-image-5.3.0-51-generic will be removed with configuration
+linux-image-5.4.0-29-generic will be removed with configuration
+linux-modules-5.3.0-28-generic will be removed with configuration
+linux-modules-5.3.0-46-generic will be removed with configuration
+linux-modules-5.3.0-51-generic will be removed with configuration
+linux-modules-5.4.0-29-generic will be removed with configuration
+linux-modules-extra-5.3.0-28-generic will be removed with configuration
+linux-modules-extra-5.3.0-46-generic will be removed with configuration
+linux-modules-extra-5.3.0-51-generic will be removed with configuration
+linux-modules-extra-5.4.0-29-generic will be removed with configuration
+pppconfig will be removed with configuration
+pppoeconf will be removed with configuration
+printer-driver-gutenprint will be removed with configuration
+python3.6-minimal will be removed with configuration
+rarian-compat will be removed with configuration
+thunderbird will be removed with configuration
+ubuntu-system-service will be removed with configuration
+ureadahead will be removed with configuration
+zeitgeist-core will be removed with configuration
+
